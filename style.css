@@ -96,3 +96,12 @@ section.box {
   margin-right: 8px;
   font-size: 24px;
 }
+
+@media (max-width:425px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+}
