@@ -98,10 +98,7 @@ section.box {
 }
 
 @media (max-width:425px) {
-  body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
+  section.box {
+    margin-top: 90px;
   }
 }
